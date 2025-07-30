@@ -1,0 +1,201 @@
+body {
+    background: rgb(96, 0, 96);
+    font-family: 'Lucida Sans Unicode', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(132, 0, 198);
+    height: 85px;
+    width: 100%;
+}
+
+header img {
+    height: 75px;
+}
+
+nav {
+    background: rgb(96, 0, 96);
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    font-family: 'Lucida Sans Unicode', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 30px;
+    font-size: 20;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(20, minmax(0, 50px));
+    grid-template-rows: repeat(20, 50px);
+    width: 1000px;
+    background: rgb(34, 0, 58);
+    border-radius: 20px;
+    border: 2px solid rgb(96, 0, 96);
+    color: white;
+}
+
+main h1 {
+    grid-row: 1/2;
+    grid-column: 5/14;
+}
+
+main img {
+    width: 200px;
+    height: 150px;
+}
+
+.af1 {
+    grid-row: 3/11;
+    grid-column: 2/14;
+    width: 600px;
+    height: 400px;
+}
+
+.aftext {
+    grid-row: 11/14;
+    grid-column: 2/14;
+}
+
+.csbild {
+    grid-row: 15/18;
+    grid-column: 3/7;
+}
+
+.cstext {
+    grid-row: 18/20;
+    grid-column: 3/7;
+}
+
+.skgbild {
+    grid-row: 15/18;
+    grid-column: 9/13;
+}
+
+.skgtext {
+    grid-row: 18/20;
+    grid-column: 9/13;
+}
+
+.steambild {
+    grid-row: 15/18;
+    grid-column: 15/19;
+}
+
+.steamtext {
+    grid-row: 18/20;
+    grid-column: 15/19;
+}
+
+aside {
+    border: 5px solid rgb(96, 0, 96);
+    background: rgb(50, 0, 52);
+    border-radius: 15px;
+    grid-row: 1/12;
+    grid-column: 15/21;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 200px));
+    grid-template-rows: 30px repeat(4, 120px);
+}
+
+aside img {
+    width: 145px;
+    height: 100px;
+    align-self: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+aside p {
+    align-self: center;
+    font-size: 12;
+    margin-left: 18px;
+    color: white;
+}
+
+aside h2 {
+    display: flex;
+    grid-column: 1 / -1;
+    align-self: center;
+    justify-self: center;
+}
+
+.peaktext {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.peakbild {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.fallouttext {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.falloutbild {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.iemtext {
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.iembild {
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.hlbild {
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+
+footer {
+    background: rgb(132, 0, 198);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    margin-bottom: 0px;
+}
+
+footer img {
+    height: 65px;
+    width: 65px;
+    margin: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+}
+
+footer p {
+    margin-left: 25px;
+}
+
+.job {
+    margin-left: 0px;
+}
